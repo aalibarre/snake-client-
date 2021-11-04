@@ -29,6 +29,18 @@ const setupInput = function (conn) {
     if (data === 'd') {
         connection.write("Move: right");
     }
+    if (data === 'p') {
+        connection.write("Say: purrrrrr")
+    }
+    if (data === 'y') {
+        connection.write("Say: you tried it!")
+    }
+    if (data === 'm') {
+        connection.write("Say: move out the way")
+    }
+    if (data === 'g') {
+        connection.write("Say: get jiggy with it")
+    }
   };
 
 setupInput();
